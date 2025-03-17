@@ -1,0 +1,71 @@
+# 忽略构建目录
+build/
+build-*/
+*.pro.user
+*.pro.user.*
+
+# 忽略编译生成的文件
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.exe
+*.dylib
+
+# 忽略Qt Creator生成的用户设置
+*.autosave
+
+# 忽略Qt生成的Makefile
+Makefile
+Makefile.*
+
+# 忽略Qt生成的moc文件
+moc_*.cpp
+moc_*.h
+
+# 忽略Qt生成的ui文件
+ui_*.h
+
+# 忽略Qt生成的qrc文件
+qrc_*.cpp
+
+# 忽略Qt生成的中间文件
+*.qrc.d
+*.qmlc
+*.jsc
+
+# 忽略调试文件
+*.debug
+*.pdb
+*.idb
+*.ilk
+
+# 忽略日志文件
+*.log
+
+# 忽略临时文件
+*.tmp
+*.swp
+*.swo
+*~
+
+# 忽略IDE配置文件
+.vscode/
+.idea/
+*.code-workspace
+
+# 忽略系统文件
+.DS_Store
+Thumbs.db
+
+# 忽略CMake生成的文件
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+
+# 忽略Qt安装目录下的文件（如果有）
+Qt/
